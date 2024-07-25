@@ -5,7 +5,7 @@
 import Combine
 import AVFoundation
 import Swallow
-import SwiftUIX
+//import SwiftUIX
 
 public class _BuiltinSpeechManager: ObservableObject {
     lazy var languageCodes = AVSpeechSynthesisVoice.speechVoices().map({
